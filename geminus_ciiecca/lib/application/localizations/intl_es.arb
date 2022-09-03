@@ -1,0 +1,7 @@
+{
+    "@@locale": "es",
+    "usuario": "Usuario",
+    "@usuario": {
+    "description": "Ejemplo intl usuario"
+    },
+}

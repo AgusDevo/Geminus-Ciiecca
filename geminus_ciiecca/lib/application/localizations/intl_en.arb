@@ -1,5 +1,5 @@
 {
-    "@@locale": "es",
+    "@@locale": "en",
     "user": "Usuario",
     "@user": {
     "description": "Ejemplo intl usuario"

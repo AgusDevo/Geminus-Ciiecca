@@ -1,4 +1,4 @@
-import 'package:coop_ciiecca/application/application.dart';
+import 'package:geminus_ciiecca/application/application.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

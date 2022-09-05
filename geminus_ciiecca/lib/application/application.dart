@@ -1,5 +1,5 @@
-import 'package:coop_ciiecca/application/application_theme.dart';
-import 'package:coop_ciiecca/modules/main_module/main_module.dart';
+import 'package:geminus_ciiecca/application/application_theme.dart';
+import 'package:geminus_ciiecca/modules/main_module/main_module.dart';
 import 'package:flutter/material.dart';
 
 class Application extends StatelessWidget {
@@ -9,14 +9,18 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       supportedLocales: const [
-        Locale('es', ''),
+        Locale('en', ''),
       ],
       theme: ApplicationTheme.light,
-      debugShowCheckedModeBanner: false,
       initialRoute: MainModule.welcomeRoute,
-      //   routes: _generateRoutes(),
+      routes: _generateRoutes(),
+      debugShowCheckedModeBanner: false,
     );
   }
-//TODO: GENERATE ROUTES
-//  Map<String, WidgetBuilder> _generateRoutes() => null;
+
+  Map<String, WidgetBuilder> _generateRoutes() {
+    return {
+      ...MainModule.generateRoutes(),
+    };
+  }
 }

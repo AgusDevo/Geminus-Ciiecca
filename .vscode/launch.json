@@ -1,0 +1,69 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "program": "lib/main.dart",
+      "name": "geminus_ciiecca",
+      "cwd": "geminus_ciiecca",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "geminus_ciiecca (profile mode)",
+      "cwd": "geminus_ciiecca",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "geminus_ciiecca (release mode)",
+      "cwd": "geminus_ciiecca",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "core",
+      "cwd": "geminus_ciiecca\\core",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "core (profile mode)",
+      "cwd": "geminus_ciiecca\\core",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "core (release mode)",
+      "cwd": "geminus_ciiecca\\core",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "welcome",
+      "cwd": "geminus_ciiecca\\features\\welcome",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "welcome (profile mode)",
+      "cwd": "geminus_ciiecca\\features\\welcome",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "welcome (release mode)",
+      "cwd": "geminus_ciiecca\\features\\welcome",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}

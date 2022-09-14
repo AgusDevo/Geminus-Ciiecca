@@ -20,7 +20,7 @@ class SurveyComponent extends StatelessWidget {
           ),
           SimpleQuestion(
             label:
-                '¿Usa la misma contraseña para otros accesos? Redes sociales, correos, Netflix, etc',
+                '¿Usa la misma contraseña para otros accesos?\n Redes sociales, correos, Netflix, etc',
           ),
           SimpleQuestion(
             label: '¿Entiende el concepto de contraseña segura?',

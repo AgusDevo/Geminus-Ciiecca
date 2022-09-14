@@ -50,7 +50,7 @@ class WelcomeComponent extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: size.height * .03),
                 child: CiieccaTextButton(
                   label: _startButtonText,
-                  onTap: () {},
+                  onTap: () => Navigator.pushNamed(context, "/survey"),
                 ),
               )
             ],

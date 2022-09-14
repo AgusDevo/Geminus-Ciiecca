@@ -86,7 +86,8 @@ class QuestionsBox extends StatelessWidget {
                       left: size.width * .03,
                       top: size.height * .02,
                     )
-                  : EdgeInsets.only(left: size.width * .03),
+                  : EdgeInsets.only(
+                      left: size.width * .03, right: size.width * .03),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,

@@ -3,5 +3,25 @@
     "user": "Usuario",
     "@user": {
     "description": "Ejemplo intl usuario"
+    },
+    "accept_terms": "Acepto los términos y condiciones",
+    "@accept_terms": {
+      "description": "Acepto terminos y condiciones"
+    },
+    "welcome_title": "Autodiagnostico PYMES",
+    "@welcome_title": {
+      "description": "main bold title for welcome component"
+    },
+    "welcome_body": "En este segmento te ayudaremos \na que aprendas los conocimientos básicos \nen cyber seguridad para que puedas trabajar \nde forma segura en tu organización",
+    "@welcome_body": {
+      "description": "main body text goes under title"
+    },
+    "welcome_start_button": "Comenzar",
+    "@welcome_start_button": {
+      "description": "Comenzar button"
+    },
+    "welcome_invite": "Te invitamos a realizar \nun breve cuestionario",
+    "@welcome_invite": {
+      "description": "Te invitamos a realizar un breve cuestionario"
     }
 }

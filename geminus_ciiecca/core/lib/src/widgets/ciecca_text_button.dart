@@ -21,7 +21,7 @@ class CiieccaTextButton extends StatelessWidget {
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
-              Radius.circular(2),
+              Radius.circular(4),
             ),
           ),
         ),

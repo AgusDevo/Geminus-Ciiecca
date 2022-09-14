@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:survey/src/domain/question_entity.dart';
-import 'package:survey/src/presentation/widgets/selec_answer.dart';
+import 'package:survey/src/presentation/widgets/select_answer.dart';
 
 class SimpleQuestion extends Question {
   const SimpleQuestion({Key? key, required String label})
@@ -9,10 +9,19 @@ class SimpleQuestion extends Question {
   final String _label;
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [Text(_label), const SelectAnswer()],
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            _label,
+            style: const TextStyle(fontWeight: FontWeight.w600),
+          ),
+          const SelectAnswer()
+        ],
+      ),
     );
   }
 }

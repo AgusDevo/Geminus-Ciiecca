@@ -2,7 +2,13 @@ import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 
 class SurveyCheckbox extends StatefulWidget {
-  SurveyCheckbox({Key? key}) : super(key: key);
+  final String _acceptTermsText;
+
+  const SurveyCheckbox({
+    Key? key,
+    required String acceptTermsText,
+  })  : _acceptTermsText = acceptTermsText,
+        super(key: key);
 
   @override
   State<SurveyCheckbox> createState() => _SurveyCheckboxState();
@@ -32,10 +38,10 @@ class _SurveyCheckboxState extends State<SurveyCheckbox> {
           onPressed: () {
             CiieccaPopUp.showTerms(context);
           },
-          child: const Text(
-            'Acepto los términos y condiciones',
+          child: Text(
+            widget._acceptTermsText,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
+            style: const TextStyle(
               decoration: TextDecoration.underline,
               color: Color.fromARGB(
                 100,

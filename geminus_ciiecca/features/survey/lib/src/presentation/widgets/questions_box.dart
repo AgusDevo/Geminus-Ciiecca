@@ -87,7 +87,9 @@ class QuestionsBox extends StatelessWidget {
                       top: size.height * .02,
                     )
                   : EdgeInsets.only(
-                      left: size.width * .03, right: size.width * .03),
+                      left: size.width * .03,
+                      right: size.width * .03,
+                    ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
@@ -105,7 +107,11 @@ class QuestionsBox extends StatelessWidget {
                     width: isMobile ? size.width * .9 : null,
                     child: CiieccaTextButton(
                       label: 'Siguiente',
-                      onTap: () {},
+                      //TODO: REMOVE THIS NAVIGATION
+                      onTap: () => Navigator.pushReplacementNamed(
+                        context,
+                        "/welcome",
+                      ),
                     ),
                   ),
                 ],

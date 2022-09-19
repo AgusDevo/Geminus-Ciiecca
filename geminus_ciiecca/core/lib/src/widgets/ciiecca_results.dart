@@ -55,10 +55,7 @@ class CiieccaResults extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: size.height * .03),
                 child: CiieccaTextButton(
                   label: "Revisión y siguiente",
-                  onTap: () => Navigator.popUntil(
-                    context,
-                    ModalRoute.withName("/survey"),
-                  ),
+                  onTap: () => Navigator.pop(context),
                 ),
               )
             ],

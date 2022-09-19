@@ -18,6 +18,8 @@ dependencies:
     path: ./features/welcome
   survey:
     path: ./features/survey
+  finish:
+    path: ./features/finish
   cupertino_icons: ^1.0.2
   google_fonts: ^2.2.0
   intl: 0.17.0

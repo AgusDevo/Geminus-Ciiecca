@@ -55,7 +55,7 @@ class CiieccaResults extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: size.height * .03),
                 child: CiieccaTextButton(
                   label: "Revisión y siguiente",
-                  onTap: () => Navigator.pop(context),
+                  onTap: () => Navigator.pushNamed(context, "/information"),
                 ),
               )
             ],

@@ -133,7 +133,7 @@ class SurveyContent extends StatelessWidget {
               builder: (context, ref, _) => CiieccaTextButton(
                 label: 'Siguiente',
                 onTap: () =>
-                    SurveyNavigatorHelper.onSurveyContinue(ref, _questions),
+                    SurveyNavigatorHelper.onSurveyContinue(context,ref, _questions),
               ),
             ),
           )

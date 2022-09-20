@@ -14,8 +14,11 @@ class QuestionBox extends StatelessWidget {
         _answers = answers ?? {'Si', 'No', 'No lo se'},
         super(key: key);
 
-  int? _currentValue;
-  int? get currentValue => _currentValue;
+  String? _currentValue;
+  String? get currentValue => _currentValue;
+  int? _currentIndex;
+  int? get currentIndex => _currentIndex;
+  String get label => _label;
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +34,8 @@ class QuestionBox extends StatelessWidget {
           SelectAnswer(
             answers: _answers,
             onChanged: (int n) {
-              _currentValue = n;
+              _currentIndex = n;
+              _currentValue = _answers.elementAt(n);
             },
           )
         ],

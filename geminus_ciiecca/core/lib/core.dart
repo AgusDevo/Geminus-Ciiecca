@@ -7,4 +7,4 @@ export 'src/widgets/ciiecca_icon_button.dart' show CiieccaIconButton;
 export 'src/widgets/ciiecca_outlined_box.dart' show CiieccaOutlinedBox;
 export 'src/widgets/ciiecca_results.dart' show CiieccaResults;
 export 'src/widgets/ciiecca_padded_text.dart' show CiiecaPaddedText;
-export 'src/widgets/ciiecca_information.dart' show CiieccaInformation;
+export 'src/widgets/ciiecca_information_urls.dart' show CiieccaInformationUrls;

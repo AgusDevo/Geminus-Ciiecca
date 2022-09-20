@@ -20,9 +20,13 @@ dependencies:
     path: ./features/survey
   finish:
     path: ./features/finish
+  information:
+    path: ./features/information
   cupertino_icons: ^1.0.2
   google_fonts: ^2.2.0
   intl: 0.17.0
+  flutter_riverpod: ^1.0.3+1
+  dio: ^4.0.6
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,5 @@
 {
     "@@locale": "en",
-    "user": "Usuario",
-    "@user": {
-    "description": "Ejemplo intl usuario"
-    },
     "accept_terms": "Acepto los términos y condiciones",
     "@accept_terms": {
       "description": "Acepto terminos y condiciones"
@@ -16,12 +12,164 @@
     "@welcome_body": {
       "description": "main body text goes under title"
     },
-    "welcome_start_button": "Comenzar",
-    "@welcome_start_button": {
-      "description": "Comenzar button"
-    },
     "welcome_invite": "Te invitamos a realizar \nun breve cuestionario",
     "@welcome_invite": {
       "description": "Te invitamos a realizar un breve cuestionario"
-    }
+    },
+    "company_profile": "Perfil empresa",
+    "@company_profile": {
+      "description": "Titulo, va sobre imagen de survery"
+    },
+    "results_correct_header": "¡Genial!\n Estás protegido",
+    "@results_correct_header": {
+      "description": "Results header color green"
+    },
+    "results_correct_body": "Felicitaciones, tu organización cuenta con\n la protección básica en ciberseguridad",
+    "@results_correct_body": {
+      "description": "Results body correct"
+    },
+    "results_wrong_header": "¡Atención!\n NO estás protegido",
+    "@results_wrong_header": {
+      "description": "Results header incorrect red"
+    },
+    "results_wrong_body": "A fin de cuidar tu organización, debes mejorar algunos conceptos\n de ciberseguridad. A continuación te ofrecemos\n recomendaciones para que implementes.",
+    "@results_wrong_body": {
+      "description": "Results body wrong"
+    },
+    "results_button": "Siguiente",
+    "@results_button": {
+      "description": "results button next"
+    },
+    "info_2a_title": "¿Su organización cuenta con Backup de TODA\n la informacion relevante de la empresa o PYMES?",
+    "@info_2a_title": {
+      "description": "helpText"
+    },
+    "info_2a_body": "Es sumamente importante tener backup de la información, permite a su PYMES\n estar tranquilo por aspectos de Ciberataques o roturas de equipos.\n Puede llevar a cabo backup en un dispositivo local o sincronizarlo en la nube\n como servicios de Google Drive, One Drive, Dropbox, otros.",
+    "@info_2a_body": {
+      "description": "helpText"
+    },
+    "info_2b_title": "¿El backup está automatizado o es manual?",
+    "@info_2b_title": {
+      "description": "helpText"
+    },
+    "info_2b_body": "Es importante que haga el backup de manera AUTOMATICA para no\n depender de personas, por que si la persona que hace backup se enferma\n o sale de vacaciones no podría hacer backup.\n El backup tiene que hacerse en base a la cantidad de informacion\n que actualiza diariamente. Mientras menos quiera perder, más recurrente\n debe ser el backup.\n Si no sabe que solucion de backup usar, puede hacer backup a la nube\n de manera automatica.\n Es importante a su vez que verifique que se hace backup y pruebe acceder a ellos\n sin tener una situacion de stress.",
+    "@info_2b_body": {
+      "description": "helpText"
+    },
+    "info_3a_title": "¿Posee contraseña para acceder a su dispositivo?",
+    "@info_3a_title": {
+      "description": "¿Posee contraseña para acceder a su dispositivo?"
+    },
+    "info_3a_body": "Todo dispositivo tecnológico que use, debe tener un requerimiento\n de usuarios y contraseña de acceso.\n Si no se restringe el acceso a un dispositivo, el mismo puede ser utilizado\n para acceder a la informacion de la PYMES y poner en riesgo su emprendimiento.",
+    "@info_3a_body": {
+      "description": "Todo dispositivo tecnológico que use, debe tener un requerimiento de usuarios y contraseña de acceso. Si no se restringe el acceso a un dispositivo, el mismo puede ser utilizado para acceder a la informacion de la PYMES y poner en riesgo su emprendimiento."
+    },
+    "info_3b_title": "¿Posee contraseña para leer sus correos?",
+    "@info_3b_title": {
+      "description": "helpText"
+    },
+    "info_3b_body": "Sus correos son muy importante. Además de leer sus correos, le permite acceder a otras plataformas. Debe proteger sus medios de comunicación y para ello debe contar con un usuario y contraseña fuerte (mayuscula, minuscula, carácter especial, numeros y al menos 10 dígitos.) Se recomienda activar doble factor de autenticación para evitar que alguien adivine su contraseña e ingresa a sus cuentas. El doble factor de autenticacion utiliza dos metodos, Uds ingresa usuario y contraseña y si es correcta, recibe a cambio un código temporario para terminar validar su identidad.",
+    "@info_3b_body": {
+      "description": "helpText"
+    },
+    "info_3c_title": "¿Usa la misma contraseña para otros accesos? (redes sociales, correo, netflix, etc)",
+    "@info_3c_title": {
+      "description": "helpText"
+    },
+    "info_3c_body": "Se recomienda que no utilice la misma contraseña en los distintos accesos. Debe proteger sus medios de comunicación y para ello debe contar con un usuario y contraseña fuerte (mayuscula, minuscula, carácter especial, numeros y al menos 10 dígitos.) Se recomienda activar doble factor de autenticación para evitar que alguien adivine su contraseña e ingresa a sus cuentas. El doble factor de autenticacion utiliza dos metodos, Uds ingresa usuario y contraseña y si es correcta, recibe a cambio un código temporario para terminar validar su identidad.",
+    "@info_3c_body": {
+      "description": "helpText"
+    },
+    "info_3d_title": "¿Entiende el concepto de contraseña segura? ¿Usa para trabajar ese tipo de contraseña?",
+    "@info_3d_title": {
+      "description": "helpText"
+    },
+    "info_3d_body": "Debe proteger sus accesos y para ello debe contar con un usuario y contraseña fuerte (mayuscula, minuscula, carácter especial, numeros y al menos 10 dígitos.)",
+    "@info_3d_body": {
+      "description": "helpText"
+    },
+    "info_3e_title": "¿Tiene activado el doble factor o autenticacion de dos pasos?",
+    "@info_3e_title": {
+      "description": "helpText"
+    },
+    "info_3e_body": "Se recomienda activar doble factor de autenticación para evitar que alguien adivine su contraseña e ingresa a sus cuentas. El doble factor de autenticacion utiliza dos metodos, Uds ingresa usuario y contraseña y si es correcta, recibe a cambio un código temporario para terminar validar su identidad. Si un delincuente obtiene su contraseña, no podrá acceder por que solo Usted recibe el código temporario. NUNCA comparta el código que recibe en los procesos de validacion. Es un dato que solo Uds debe conocer y si cede el mismo corre el riesgo de que el ciberdelincuente o estafador robe el acceso.",
+    "@info_3e_body": {
+      "description": "helpText"
+    },
+    "info_4a_title": "¿Su ordenador tiene antivirus instalado y actualizado?",
+    "@info_4a_title": {
+      "description": "helpText"
+    },
+    "info_4a_body": "Su equipos informáticos deben contar con un antivirus original y debe estar constantemente actualizado. El antimalware, nombre con el cual se conoce los antivirus, detecta intentos de software malicioso que tratará de vulnerar su plataforma. Es importante que su celular Android y sus ordenadores cuenten con uno.",
+    "@info_4a_body": {
+      "description": "helpText"
+    },
+    "info_4b_title": "¿Su ordenador tiene un firewall activo?",
+    "@info_4b_title": {
+      "description": "helpText"
+    },
+    "info_4b_body": "El firewall permite bloquear accesos desde Internet a su equipo u ordenador. Debe tener siempre el mismo activo, muchas veces los antimalware suelen tener uno incluído. Nunca desactive el antimalware o antivirus.",
+    "@info_4b_body": {
+      "description": "helpText"
+    },
+    "info_4c_title": "¿Su celular tiene PIN o control de acceso?",
+    "@info_4c_title": {
+      "description": "helpText"
+    },
+    "info_4d_title": "¿Usted usa una red Wifi Segura o privada o se conecta a una red pública?",
+    "@info_4d_title": {
+      "description": "helpText"
+    },
+    "info_4d_body": "Si Usted accede a una red pública de manera constante, trate de usar otros medios de accesos seguros como redes virtuales. El navegador OPERA y FIREFOX proveen eso de manera segura. Una red WIFI Publica lo expone a que un tercero pueda analizar el tráfico, tratar de obtener sus credenciales y tratar de acceder a su dispositivo remoto. Aquí es muy importante contar con el Firewall activo. Trate de no usar redes que desconoce o que son de bares o publicas con acceso a datos personales (banco, correos, etc).",
+    "@info_4d_body": {
+      "description": "helpText"
+    },
+    "info_5a_title": "¿Su ordenador o celular posee las actualizaciones al día?",
+    "@info_5a_title": {
+      "description": "helpText"
+    },
+    "info_5a_body": "Es importante que sus equipos tecnologicos estén actualizados, ya que evita que un ciberdelincuente aproveche algun fallo de software y lo vulnere. Si posee Sistemas Operativos obsoletos (Windows XP o Windows 7) planifique su reemplazo por que ya no hay aplicaciones de seguridad que soporten estas aplicaciones y corren riesgos de ser vulnerados. Los telefonos celulares deben ser actualizados, para ello siempre garantice espacio internamente para que esto pueda ocurrir.",
+    "@info_5a_body": {
+      "description": "helpText"
+    },
+    "info_5b_title": "¿Sus dispositivos se actualizan automaticamente o son obsoletos?",
+    "@info_5b_title": {
+      "description": "helpText"
+    },
+    "info_5b_body": "Los dispositivos deben actualizarse de manera automatica. En el caso de esto no ocurra, pida asesoramiento, por que puede ser vulnerado su dispositivo. Si posee Sistemas Operativos obsoletos (Windows XP o Windows 7) planifique su reemplazo por que ya no hay aplicaciones de seguridad que soporten estas aplicaciones y corren riesgos de ser vulnerados. Los telefonos celulares deben ser actualizados, para ello siempre garantice espacio internamente para que esto pueda ocurrir.",
+    "@info_5b_body": {
+      "description": "helpText"
+    },
+    "info_5c_title": "¿Uds instala software en sus dispositivos originales o copias?",
+    "@info_5c_title": {
+      "description": "helpText"
+    },
+    "info_5c_body": "Los softwares piratas que no son bajados de sitios oficiales, suelen venir acompañados por virus o códigos maliciosos que pueden comprometer su PYMES. Baje siempre software de fuentes genuinas, si esta en duda consulte una persona con conocimientos informáticos. Tenga cuidado cuando baja algo del Google Play ya que no todos los programas son lo que dicen ser. Verifique reseñas y calificaciones.",
+    "@info_5c_body": {
+      "description": "helpText"
+    },
+    "info_5d_title": "¿Antes de instalar un software, valida si es seguro o no?",
+    "@info_5d_title": {
+      "description": "helpText"
+    },
+    "info_5d_body": "Cuando instala un software, lea atentamente las intrucciones de pantalla. Muchas veces se le asignan mas permisos que los que tienen que tener y pueden provocar un daño a su PYMES. Las aplicaciones solo deben tener los permisos necesarios y si excede de esos permisos, no lo instale.",
+    "@info_5d_body": {
+      "description": "helpText"
+    },
+    "success_header": "¡Felicitaciones!\n Has completado el autodiagnóstico de ciberseguridad",
+    "@success_header": {
+      "description": "helpText"
+    },
+    "success_body": "En caso de haber tenido fallas, podrás descargar\n las recomendaciones a fin de que las implementes.",
+    "@success_body": {
+      "description": "helpText"
+    },
+    "success_download": "Descargar formulario",
+    "@success_download": {
+      "description": "helpText"
+    },
+    "success_accept": "Aceptar y volver al inicio",
+    "@success_accept": {
+      "description": "helpText"
+    },
 }

@@ -1,6 +1,7 @@
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:information/src/data/helpers/info_navigation_helper.dart';
 import 'package:information/src/data/providers/info_index_provider.dart';
 import 'package:information/src/presentation/widgets/information_presentation.dart';
 
@@ -11,7 +12,7 @@ class InformationComponent extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    int currentIndex = ref.watch(infoIndex);
+    final currentIndex = ref.watch(infoIndex);
     final size = MediaQuery.of(context).size;
     return Center(
       child: CiieccaOutlinedBox(
@@ -27,20 +28,23 @@ class InformationComponent extends ConsumerWidget {
                 "assets/images/lock.png",
                 package: 'core',
               ),
+              Container(
+                child: _infoBoxes[currentIndex],
+              ),
               Consumer(
                 builder: (context, ref, child) {
-                  return Container(
-                    child: _infoBoxes[currentIndex],
+                  return Padding(
+                    padding: EdgeInsets.only(bottom: size.height * .03),
+                    child: CiieccaTextButton(
+                      label: "Siguiente",
+                      onTap: () => InfoNavigationHelper.onLastInfo(
+                        context,
+                        ref,
+                        _infoBoxes,
+                      ), //TODO!
+                    ),
                   );
                 },
-              ),
-              Padding(
-                padding: EdgeInsets.only(bottom: size.height * .03),
-                child: CiieccaTextButton(
-                    label: "Siguiente",
-                    onTap: () {
-                      currentIndex++;
-                    }),
               )
             ],
           ),
